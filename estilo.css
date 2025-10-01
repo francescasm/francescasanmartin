@@ -1,0 +1,142 @@
+body{
+    background-image: url(img/fondo.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin: 15px;
+}
+.logo{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo img{
+    border-radius: 50%;
+    width: 120px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.logo h1{
+    color: rgb(0, 157, 255);
+    background-color: white;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.438);
+    display: flex;
+    width: 250px;
+    height: 40px;
+    justify-content: flex-end;
+
+}
+.autor{
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    margin: auto;
+   flex-direction: row;
+}
+.autor p{
+    
+    background-color: white;
+    margin: 2px;
+    font-weight: bold;
+}
+hr{
+    background-color: black;
+    height: 0.5px;
+}
+h2{
+    font-family: poppins;
+    text-decoration: underline;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+}
+p{
+    color: rgb(81, 77, 77);
+    font-size: 12px;
+}
+strong{
+    color: black;
+}
+.bloques{
+    display: flex;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+    justify-content: center;
+}
+.caja{
+    background-color: beige;
+    border-color: gray;
+    border-style: solid;
+    padding: 0 5px ;
+    margin: 5px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.caja h3{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+#uno span{
+    background-color: yellow;
+    font-style: bold;
+}
+#rojo h3{
+    background-color: rgb(210, 55, 24);
+}
+#azul h3{
+    background-color: rgb(38, 128, 172);
+}
+#verde h3{
+    background-color: rgb(76, 166, 38);
+}
+.caja img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+#rojito h3{
+    background-color: rgb(210, 55, 24);
+    width: 100%;
+    text-align: center;
+}
+#azulito h3{
+    background-color: rgb(38, 128, 172);
+    width: 100%;
+}
+#verdecito h3{
+    background-color: rgb(76, 166, 38);
+    width: 100%;
+}
+#casita {
+    width: 250px;
+    margin: auto;
+    box-shadow: 5px 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#casita img{
+    width: 100%;
+}
+#Resumenjsjsjs{
+    background-color: white;
+    border-color:  black;
+    border-style:  solid;
+    border-width: 0.5px;
+    box-shadow: 3px 3px 3px;
+    font-style: italic;
+    font-family: poppins;
+    font-size: 10px;
+    text-align: center;
+}
+#dos span{
+    font-style: italic;
+}
